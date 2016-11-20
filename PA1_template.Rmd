@@ -12,7 +12,7 @@ each day.
 ###1) Code for reading the dataset and/or processing the data
 Assuming the data has already been downloaded into the correct working directory.
 ```{r}
-activity <- read.csv("./activity.csv", header = TRUE, na.strings = "NA")
+activity <- read.csv("activity.csv", header = TRUE, na.strings = "NA")
 ```
 
 ###2) Histogram of the total number of steps taken each day
